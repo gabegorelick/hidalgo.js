@@ -1,0 +1,29 @@
+{
+  "name": "hidalgo",
+  "version": "0.0.1",
+  "description": "High quality disease surveillance algorithms",
+  "main": "./index.js",
+  "license": "Apache-2.0",
+  "repository": "gabegorelick/hidalgo.js",
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "disease",
+    "surveillance",
+    "algorithm",
+    "detector"
+  ],
+  "scripts": {
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "hidalgo-cusum-pvalue": "0.0.1",
+    "hidalgo-cusum-test-stat": "0.0.1",
+    "object-assign": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  }
+}
